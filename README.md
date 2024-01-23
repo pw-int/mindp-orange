@@ -2,7 +2,7 @@
 
 Markup project created by figma design.
 
-Figma link [url](https://www.figma.com/file/IEB7Jrddxwt8MwvwV9IBuH/Poland-Plus---Dimoco-(Mind%2B%26Bitegames)?type=design&node-id=0-1&mode=design&t=Hyh9WNS3iCFS2nio-0 "Figma link")
+Figma link [url](https://www.figma.com/file/Sy0JFiUKpNyZp4TXQWCBcm/Poland-Orange_Mind%2B-(Copy)?type=design&node-id=24-95&mode=design&t=TaYpxxSxZqBFBP3e-0 "Figma link")
 
 Demo 3g link [url](https://pw-int.github.io/mindp-orange/ "Demo 3g link")
 
