@@ -12062,19 +12062,19 @@ p {
 }
 .main .banner .banner-logo {
   position: absolute;
-  top: 10vh;
+  top: 15vh;
   right: 50%;
   transform: translate(50%, -50%);
   z-index: 1;
 }
 @media (min-width: 576px) {
   .main .banner .banner-logo {
-    top: 20vh;
+    top: 30vh;
   }
 }
 @media (min-width: 768px) {
   .main .banner .banner-logo {
-    top: 30vh;
+    top: 25vh;
   }
 }
 @media (min-width: 1200px) {
