@@ -1,0 +1,43 @@
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: "Inter";
+$font-family-base: $font-family-sans-serif;
+$container-padding-x: 2.5rem;
+$white: #FFFFFF;
+$yellow: #FF7A00;
+$green: #00B262;
+$gray-218: #E1E1E1;
+$gray: #3E4E4A;
+$light-gray: #818181;
+$black: #303030;
+// font sizes
+$font-size-base: .688rem;
+$font-sizes: ( 1: 1rem, 2: .875rem, 3: .75rem, 4: .625rem);
+$line-height-base: 1;
+// buttons
+$btn-font-weight: 500;
+$btn-font-size: 1.25rem;
+$btn-line-height: 1.5!default;
+$btn-padding-x: 2rem!default;
+$btn-padding-y: .91rem!default;
+$btn-color: $black!default;
+// form-control
+$input-font-size: 1rem !default;
+$input-line-height: 1.25 !default;
+$input-font-weight: 500 !default;
+$input-color: $gray !default;
+$input-placeholder-color: $gray !default;
+$input-bg: $white !default;
+$input-border-color: $yellow !default;
+$input-border-radius: 1.875rem !default;
+$input-border-width: 2px !default;
+$input-padding-y: .75rem !default;
+$input-padding-x: 1rem !default;
+$input-group-addon-color: $white !default;
+$input-group-addon-border-color: transparent !default;
+$form-feedback-invalid-color: #fd5732 !default;
+$form-feedback-font-size: .625rem !default;
+$input-box-shadow: none !default;
+$input-focus-box-shadow: none !default;
+$form-check-input-width: 1.25em;
+$form-check-input-bg: $white;

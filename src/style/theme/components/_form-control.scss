@@ -1,0 +1,78 @@
+.form-control {
+    box-shadow: 0px 1.3px 1.3px 0px rgba(0, 0, 0, 0.25);
+    &::placeholder {
+        font-weight: 500;
+        font-style: italic;
+        font-size: 1rem;
+        color: $light-gray;
+    }
+    &:focus {
+        box-shadow: none;
+        border-color: $yellow;
+    }
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3),
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control,
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select,
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-top-right-radius: 1.875rem;
+    border-bottom-right-radius: 1.875rem;
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    box-shadow: none;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    background-image: none;
+    padding-right: 1rem;
+}
+
+.valid-icon {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $yellow;
+    border-radius: 1.875rem;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+    background-image: none;
+    padding-right: 1rem;
+}
+
+.form-control.valid-icon-input.is-valid,
+.was-validated .form-control:valid {
+    border-color: $yellow;
+    padding-right: 1rem;
+    &+.valid-icon {
+        display: block;
+        width: 48px;
+        z-index: 1000;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5LjYwMzcgNi42NjAwM0w5LjM0NzI1IDE3LjQwNDRMNC42ODUyMSAxMi41MjA2IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuMzk3NjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: $yellow;
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    border-color: $yellow;
+}
+
+.form-control.contact.is-invalid,
+.was-validated .form-control.contact:invalid {
+    border: 2px solid #fd5732;
+    padding: 1.063rem 1rem;
+}
