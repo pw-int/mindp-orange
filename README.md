@@ -2,7 +2,7 @@
 
 Markup project created by figma design.
 
-Figma link [url](https://www.figma.com/file/Sy0JFiUKpNyZp4TXQWCBcm/Poland-Orange_Mind%2B-(Copy)?type=design&node-id=24-95&mode=design&t=TaYpxxSxZqBFBP3e-0 "Figma link")
+Figma link [url](https://www.figma.com/file/fPP8kqT2vGBnwqvHk3zlAI/Poland-Orange_Mind%2B?type=design&node-id=0-1&mode=design&t=aqr2ql7qcpUjv99Y-0 "Figma link")
 
 Demo 3g link [url](https://pw-int.github.io/mindp-orange/ "Demo 3g link")
 
