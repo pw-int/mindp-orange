@@ -12069,17 +12069,27 @@ p {
 }
 @media (min-width: 576px) {
   .main .banner .banner-logo {
-    top: 30vh;
+    top: 14vh;
   }
 }
 @media (min-width: 768px) {
   .main .banner .banner-logo {
-    top: 25vh;
+    top: 13vh;
+  }
+}
+@media (min-width: 912px) {
+  .main .banner .banner-logo {
+    top: 10vh;
+  }
+}
+@media (min-width: 992px) {
+  .main .banner .banner-logo {
+    top: 8vh;
   }
 }
 @media (min-width: 1200px) {
   .main .banner .banner-logo {
-    top: 25vh;
+    top: 9vh;
   }
 }
 .main .icon-style {
